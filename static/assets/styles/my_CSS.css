@@ -1,0 +1,80 @@
+        .modal-backdrop {
+               /*background-color: white;
+               opacity:0.9 !important;*/
+           }
+
+           .nav-item a {
+            color: white;
+            background-color: none;
+        }
+
+        .nav-item a:hover {
+            background-color: none;
+        }
+
+        .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+            /*color: #495057;*/
+            background-color: unset !important;
+        }
+
+        .active {
+            color: #495057;
+        }
+
+        .myinput {
+            background-color:rgba(150,150,150,.7);
+            border: none;
+        }
+
+        .element::-moz-placeholder {
+            font-weight: bold;
+        }
+
+        .element::-webkit-input-placeholder {
+            font-weight: bold;
+        }
+        .modal-backdrop {
+               /*background-color: white;
+               opacity:0.9 !important;*/
+           }
+
+           .nav-item a {
+            color: #495057;
+            background-color: none;
+        }
+
+        .nav-item a:hover {
+            background-color: none;
+        }
+
+        .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+            /*color: #495057;*/
+            background-color: unset !important;
+        }
+
+        .active {
+            color: #495057;
+        }
+
+        .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+            color: #ffff;
+        }
+
+        .myinput {
+            background-color:rgba(150,150,150,.7);
+            border: none;
+        }
+
+        .element::-moz-placeholder {
+            font-weight: bold;
+        }
+
+        .element::-webkit-input-placeholder {
+            font-weight: bold;
+        }
+
+
+        #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: white !important;
+    background: black !important;
+}

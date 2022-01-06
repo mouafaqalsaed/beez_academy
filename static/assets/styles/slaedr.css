@@ -1,0 +1,45 @@
+div.image1 {
+    content:url("/static/images/Banner/01.jpg");
+ }
+div.image2 {
+    content:url("/static/images/Banner/02.jpg");
+ }
+div.image3 {
+    content:url("/static/images/Banner/03.jpg");
+ }
+div.image4 {
+    content:url("/static/images/Banner/04.jpg");
+ }
+ /* progress bar */
+.carousel-progress-bar-timer {
+   display: block;
+   height: 5px;
+   background-color: #039be5;
+   width: 0%;
+   margin: 0;
+   border: none;
+   z-index: 11;
+   position: fixed;
+   top: 0px;
+ }
+.carousel-progress-bar-timer.animate {
+    /* We make the transition time shorter to avoid the slide transitioning
+      before the timer bar is "full" - change the 4.25s here to fit your
+      carousel's transition time */
+    -webkit-transition: width 8s linear;
+    -moz-transition: width 8s linear;
+    -ms-transition: width 8s linear;
+    -o-transition: width 8s linear;
+    transition: width 8s linear;
+  }
+  
+.carousel
+   .transition-timer-carousel-left-progress-bar.stopanimation,
+.carousel
+   .transition-timer-carousel-progress-bar.stopanimation {
+    /* class to fix IE bug that make transition continue even when you remove the class .animate */
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+  }
